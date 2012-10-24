@@ -1,0 +1,22 @@
+{
+  "name": "stasmjs"
+  , "description": "Node Bindings to Stasm"
+  , "author": "Ashish Prasad <ashish.ap.rao@gmail.com>"
+  , "dependencies": {
+    }
+  , "version" : "0.1.0"
+  
+  , "dependencies": {
+      "buffers" : "0.1.1"
+    }
+  
+  , "devDependencies": {
+      "vows": "*"
+    }
+ , "engine": "node >= 0.6.0"
+ , "scripts": {
+     "preinstall": "node-gyp rebuild"
+   , "test": ""
+ }
+ , "main": "./lib/stasm"
+}

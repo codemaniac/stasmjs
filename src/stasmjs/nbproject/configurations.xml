@@ -1,0 +1,2002 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="84">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df name="stasm3.1" root="../stasm3.1">
+      <df name="data">
+        <in>model-1.asm</in>
+        <in>model-2.asm</in>
+        <in>mu-68-1d.asm</in>
+        <in>mu-76-2d.asm</in>
+      </df>
+      <df name="face_landmarks">
+        <in>stasm_face_landmarks.cpp</in>
+        <in>stasm_min.cpp</in>
+        <in>stasm_min.hpp</in>
+      </df>
+      <df name="gsl">
+        <df name="dll">
+        </df>
+        <df name="gsl">
+          <in>acconfig.h</in>
+          <in>config.h</in>
+          <in>gsl_blas.h</in>
+          <in>gsl_blas_types.h</in>
+          <in>gsl_block.h</in>
+          <in>gsl_block_char.h</in>
+          <in>gsl_block_complex.h</in>
+          <in>gsl_block_complex_double.h</in>
+          <in>gsl_block_complex_float.h</in>
+          <in>gsl_block_complex_long_double.h</in>
+          <in>gsl_block_double.h</in>
+          <in>gsl_block_float.h</in>
+          <in>gsl_block_int.h</in>
+          <in>gsl_block_long.h</in>
+          <in>gsl_block_long_double.h</in>
+          <in>gsl_block_short.h</in>
+          <in>gsl_block_uchar.h</in>
+          <in>gsl_block_uint.h</in>
+          <in>gsl_block_ulong.h</in>
+          <in>gsl_block_ushort.h</in>
+          <in>gsl_cblas.h</in>
+          <in>gsl_cdf.h</in>
+          <in>gsl_chebyshev.h</in>
+          <in>gsl_check_range.h</in>
+          <in>gsl_combination.h</in>
+          <in>gsl_complex.h</in>
+          <in>gsl_complex_math.h</in>
+          <in>gsl_const.h</in>
+          <in>gsl_const_cgsm.h</in>
+          <in>gsl_const_mksa.h</in>
+          <in>gsl_const_num.h</in>
+          <in>gsl_dft_complex.h</in>
+          <in>gsl_dft_complex_float.h</in>
+          <in>gsl_dht.h</in>
+          <in>gsl_diff.h</in>
+          <in>gsl_eigen.h</in>
+          <in>gsl_errno.h</in>
+          <in>gsl_fft.h</in>
+          <in>gsl_fft_complex.h</in>
+          <in>gsl_fft_complex_float.h</in>
+          <in>gsl_fft_halfcomplex.h</in>
+          <in>gsl_fft_halfcomplex_float.h</in>
+          <in>gsl_fft_real.h</in>
+          <in>gsl_fft_real_float.h</in>
+          <in>gsl_fit.h</in>
+          <in>gsl_heapsort.h</in>
+          <in>gsl_histogram.h</in>
+          <in>gsl_histogram2d.h</in>
+          <in>gsl_ieee_utils.h</in>
+          <in>gsl_integration.h</in>
+          <in>gsl_interp.h</in>
+          <in>gsl_linalg.h</in>
+          <in>gsl_machine.h</in>
+          <in>gsl_math.h</in>
+          <in>gsl_matrix.h</in>
+          <in>gsl_matrix_char.h</in>
+          <in>gsl_matrix_complex_double.h</in>
+          <in>gsl_matrix_complex_float.h</in>
+          <in>gsl_matrix_complex_long_double.h</in>
+          <in>gsl_matrix_double.h</in>
+          <in>gsl_matrix_float.h</in>
+          <in>gsl_matrix_int.h</in>
+          <in>gsl_matrix_long.h</in>
+          <in>gsl_matrix_long_double.h</in>
+          <in>gsl_matrix_short.h</in>
+          <in>gsl_matrix_uchar.h</in>
+          <in>gsl_matrix_uint.h</in>
+          <in>gsl_matrix_ulong.h</in>
+          <in>gsl_matrix_ushort.h</in>
+          <in>gsl_message.h</in>
+          <in>gsl_min.h</in>
+          <in>gsl_mode.h</in>
+          <in>gsl_monte.h</in>
+          <in>gsl_monte_miser.h</in>
+          <in>gsl_monte_plain.h</in>
+          <in>gsl_monte_vegas.h</in>
+          <in>gsl_multifit.h</in>
+          <in>gsl_multifit_nlin.h</in>
+          <in>gsl_multimin.h</in>
+          <in>gsl_multiroots.h</in>
+          <in>gsl_nan.h</in>
+          <in>gsl_ntuple.h</in>
+          <in>gsl_odeiv.h</in>
+          <in>gsl_permutation.h</in>
+          <in>gsl_permute.h</in>
+          <in>gsl_permute_char.h</in>
+          <in>gsl_permute_complex_double.h</in>
+          <in>gsl_permute_complex_float.h</in>
+          <in>gsl_permute_complex_long_double.h</in>
+          <in>gsl_permute_double.h</in>
+          <in>gsl_permute_float.h</in>
+          <in>gsl_permute_int.h</in>
+          <in>gsl_permute_long.h</in>
+          <in>gsl_permute_long_double.h</in>
+          <in>gsl_permute_short.h</in>
+          <in>gsl_permute_uchar.h</in>
+          <in>gsl_permute_uint.h</in>
+          <in>gsl_permute_ulong.h</in>
+          <in>gsl_permute_ushort.h</in>
+          <in>gsl_permute_vector.h</in>
+          <in>gsl_permute_vector_char.h</in>
+          <in>gsl_permute_vector_complex_double.h</in>
+          <in>gsl_permute_vector_complex_float.h</in>
+          <in>gsl_permute_vector_complex_long_double.h</in>
+          <in>gsl_permute_vector_double.h</in>
+          <in>gsl_permute_vector_float.h</in>
+          <in>gsl_permute_vector_int.h</in>
+          <in>gsl_permute_vector_long.h</in>
+          <in>gsl_permute_vector_long_double.h</in>
+          <in>gsl_permute_vector_short.h</in>
+          <in>gsl_permute_vector_uchar.h</in>
+          <in>gsl_permute_vector_uint.h</in>
+          <in>gsl_permute_vector_ulong.h</in>
+          <in>gsl_permute_vector_ushort.h</in>
+          <in>gsl_poly.h</in>
+          <in>gsl_pow_int.h</in>
+          <in>gsl_precision.h</in>
+          <in>gsl_qrng.h</in>
+          <in>gsl_randist.h</in>
+          <in>gsl_rng.h</in>
+          <in>gsl_roots.h</in>
+          <in>gsl_sf.h</in>
+          <in>gsl_sf_airy.h</in>
+          <in>gsl_sf_bessel.h</in>
+          <in>gsl_sf_clausen.h</in>
+          <in>gsl_sf_coulomb.h</in>
+          <in>gsl_sf_coupling.h</in>
+          <in>gsl_sf_dawson.h</in>
+          <in>gsl_sf_debye.h</in>
+          <in>gsl_sf_dilog.h</in>
+          <in>gsl_sf_elementary.h</in>
+          <in>gsl_sf_ellint.h</in>
+          <in>gsl_sf_elljac.h</in>
+          <in>gsl_sf_erf.h</in>
+          <in>gsl_sf_exp.h</in>
+          <in>gsl_sf_expint.h</in>
+          <in>gsl_sf_fermi_dirac.h</in>
+          <in>gsl_sf_gamma.h</in>
+          <in>gsl_sf_gegenbauer.h</in>
+          <in>gsl_sf_hyperg.h</in>
+          <in>gsl_sf_laguerre.h</in>
+          <in>gsl_sf_lambert.h</in>
+          <in>gsl_sf_legendre.h</in>
+          <in>gsl_sf_log.h</in>
+          <in>gsl_sf_pow_int.h</in>
+          <in>gsl_sf_psi.h</in>
+          <in>gsl_sf_result.h</in>
+          <in>gsl_sf_synchrotron.h</in>
+          <in>gsl_sf_transport.h</in>
+          <in>gsl_sf_trig.h</in>
+          <in>gsl_sf_zeta.h</in>
+          <in>gsl_siman.h</in>
+          <in>gsl_sort.h</in>
+          <in>gsl_sort_char.h</in>
+          <in>gsl_sort_double.h</in>
+          <in>gsl_sort_float.h</in>
+          <in>gsl_sort_int.h</in>
+          <in>gsl_sort_long.h</in>
+          <in>gsl_sort_long_double.h</in>
+          <in>gsl_sort_short.h</in>
+          <in>gsl_sort_uchar.h</in>
+          <in>gsl_sort_uint.h</in>
+          <in>gsl_sort_ulong.h</in>
+          <in>gsl_sort_ushort.h</in>
+          <in>gsl_sort_vector.h</in>
+          <in>gsl_sort_vector_char.h</in>
+          <in>gsl_sort_vector_double.h</in>
+          <in>gsl_sort_vector_float.h</in>
+          <in>gsl_sort_vector_int.h</in>
+          <in>gsl_sort_vector_long.h</in>
+          <in>gsl_sort_vector_long_double.h</in>
+          <in>gsl_sort_vector_short.h</in>
+          <in>gsl_sort_vector_uchar.h</in>
+          <in>gsl_sort_vector_uint.h</in>
+          <in>gsl_sort_vector_ulong.h</in>
+          <in>gsl_sort_vector_ushort.h</in>
+          <in>gsl_specfunc.h</in>
+          <in>gsl_spline.h</in>
+          <in>gsl_statistics.h</in>
+          <in>gsl_statistics_char.h</in>
+          <in>gsl_statistics_double.h</in>
+          <in>gsl_statistics_float.h</in>
+          <in>gsl_statistics_int.h</in>
+          <in>gsl_statistics_long.h</in>
+          <in>gsl_statistics_long_double.h</in>
+          <in>gsl_statistics_short.h</in>
+          <in>gsl_statistics_uchar.h</in>
+          <in>gsl_statistics_uint.h</in>
+          <in>gsl_statistics_ulong.h</in>
+          <in>gsl_statistics_ushort.h</in>
+          <in>gsl_sum.h</in>
+          <in>gsl_sys.h</in>
+          <in>gsl_test.h</in>
+          <in>gsl_types.h</in>
+          <in>gsl_vector.h</in>
+          <in>gsl_vector_char.h</in>
+          <in>gsl_vector_complex.h</in>
+          <in>gsl_vector_complex_double.h</in>
+          <in>gsl_vector_complex_float.h</in>
+          <in>gsl_vector_complex_long_double.h</in>
+          <in>gsl_vector_double.h</in>
+          <in>gsl_vector_float.h</in>
+          <in>gsl_vector_int.h</in>
+          <in>gsl_vector_long.h</in>
+          <in>gsl_vector_long_double.h</in>
+          <in>gsl_vector_short.h</in>
+          <in>gsl_vector_uchar.h</in>
+          <in>gsl_vector_uint.h</in>
+          <in>gsl_vector_ulong.h</in>
+          <in>gsl_vector_ushort.h</in>
+          <in>gsl_version.h</in>
+          <in>tridiag.h</in>
+          <in>view.h</in>
+        </df>
+        <df name="lib_ms">
+        </df>
+      </df>
+      <df name="image">
+        <in>ezfont.c</in>
+        <in>ezfont.h</in>
+        <in>image.hpp</in>
+        <in>imequalize.cpp</in>
+        <in>imequalize.hpp</in>
+        <in>imfile.cpp</in>
+        <in>imfile.hpp</in>
+        <in>imgiven.cpp</in>
+        <in>imgiven.hpp</in>
+        <in>imutil.cpp</in>
+        <in>imutil.hpp</in>
+        <in>imwrite.cpp</in>
+        <in>imwrite.hpp</in>
+        <in>jpegutil.cpp</in>
+        <in>jpegutil.hpp</in>
+        <in>pngutil.cpp</in>
+        <in>pngutil.hpp</in>
+        <in>rgbimutil.cpp</in>
+        <in>rgbimutil.hpp</in>
+      </df>
+      <df name="jpeg">
+        <df name="dll">
+        </df>
+        <df name="lib_ms">
+        </df>
+        <in>cderror.h</in>
+        <in>cdjpeg.h</in>
+        <in>jconfig.h</in>
+        <in>jerror.h</in>
+        <in>jinclude.h</in>
+        <in>jmorecfg.h</in>
+        <in>jpeglib.h</in>
+        <in>wrbmp.c</in>
+      </df>
+      <df name="linux">
+      </df>
+      <df name="mat">
+        <in>mat.cpp</in>
+        <in>mat.hpp</in>
+        <in>matvec.cpp</in>
+        <in>matvec.hpp</in>
+        <in>matview.hpp</in>
+        <in>mchol.cpp</in>
+        <in>mchol.hpp</in>
+      </df>
+      <df name="mdiff">
+        <df name="tests">
+        </df>
+        <in>mdiff.cpp</in>
+      </df>
+      <df name="mingw">
+      </df>
+      <df name="minimal">
+        <in>minimal.cpp</in>
+      </df>
+      <df name="opencv_example">
+        <in>stasm_opencv_example.cpp</in>
+      </df>
+      <df name="png">
+        <df name="pnglib">
+          <in>png.h</in>
+          <in>pngconf.h</in>
+        </df>
+        <df name="zlib">
+          <in>zconf.h</in>
+          <in>zlib.h</in>
+        </df>
+        <in>readpng.c</in>
+        <in>readpng.h</in>
+      </df>
+      <df name="regex">
+        <in>regex.c</in>
+        <in>regex.h</in>
+        <in>regex_config.h</in>
+      </df>
+      <df name="rowley">
+        <in>find.cpp</in>
+        <in>find.hpp</in>
+        <in>follow.cpp</in>
+        <in>follow.hpp</in>
+        <in>forward.cpp</in>
+        <in>forward.hpp</in>
+        <in>initnet.cpp</in>
+        <in>initnet.hpp</in>
+        <in>list.cpp</in>
+        <in>list.hpp</in>
+        <in>search.cpp</in>
+        <in>search.hpp</in>
+        <in>tclHash.c</in>
+        <in>tclHash.h</in>
+      </df>
+      <df name="stasm">
+        <in>asmsearch.cpp</in>
+        <in>asmsearch.hpp</in>
+        <in>atface.cpp</in>
+        <in>atface.hpp</in>
+        <in>colors.hpp</in>
+        <in>err.cpp</in>
+        <in>err.hpp</in>
+        <in>hypot.c</in>
+        <in>imshape.cpp</in>
+        <in>imshape.hpp</in>
+        <in>initasm.cpp</in>
+        <in>initasm.hpp</in>
+        <in>landmarks.cpp</in>
+        <in>landmarks.hpp</in>
+        <in>main.cpp</in>
+        <in>marki.cpp</in>
+        <in>me17s.hpp</in>
+        <in>mouth.hpp</in>
+        <in>prof.cpp</in>
+        <in>prof.hpp</in>
+        <in>readasm.cpp</in>
+        <in>readasm.hpp</in>
+        <in>readconf.cpp</in>
+        <in>readconf.hpp</in>
+        <in>release.cpp</in>
+        <in>release.hpp</in>
+        <in>rowley.cpp</in>
+        <in>rowley.hpp</in>
+        <in>rowleyhand.cpp</in>
+        <in>rowleyhand.hpp</in>
+        <in>safe_alloc.cpp</in>
+        <in>safe_alloc.hpp</in>
+        <in>shapefile.cpp</in>
+        <in>shapefile.hpp</in>
+        <in>shapemodel.cpp</in>
+        <in>shapemodel.hpp</in>
+        <in>sparsemat.cpp</in>
+        <in>sparsemat.hpp</in>
+        <in>startshape.cpp</in>
+        <in>startshape.hpp</in>
+        <in>stasm.cpp</in>
+        <in>stasm.hpp</in>
+        <in>stasm_cv.h</in>
+        <in>stasm_dll.cpp</in>
+        <in>stasm_dll.hpp</in>
+        <in>tab.cpp</in>
+        <in>tab.hpp</in>
+        <in>testdll.cpp</in>
+        <in>util.cpp</in>
+        <in>util.hpp</in>
+        <in>violajones.cpp</in>
+        <in>violajones.hpp</in>
+        <in>vjhand.cpp</in>
+        <in>vjhand.hpp</in>
+        <in>werr.cpp</in>
+        <in>winfile.cpp</in>
+        <in>winfile.hpp</in>
+        <in>wrelease.cpp</in>
+      </df>
+      <df name="tasm">
+        <in>detav.cpp</in>
+        <in>detav.hpp</in>
+        <in>eyesynth.cpp</in>
+        <in>eyesynth.hpp</in>
+        <in>mrand.cpp</in>
+        <in>mrand.hpp</in>
+        <in>proftrain.cpp</in>
+        <in>proftrain.hpp</in>
+        <in>tasm.cpp</in>
+        <in>tasm.hpp</in>
+        <in>tasmshapes.cpp</in>
+        <in>tasmshapes.hpp</in>
+        <in>tcovar.cpp</in>
+        <in>tcovar.hpp</in>
+      </df>
+      <df name="tasm-example">
+        <df name="images">
+        </df>
+        <df name="tests">
+          <in>example.asm</in>
+          <in>linux-example.asm</in>
+          <in>mingw-example.asm</in>
+        </df>
+      </df>
+      <df name="test_build_linux">
+      </df>
+      <df name="tests">
+        <in>test-xm2vts-varied.asm</in>
+        <in>test20-2d.asm</in>
+      </df>
+      <df name="tools">
+        <in>check_csv_landmarks.cpp</in>
+        <in>fdet.cpp</in>
+        <in>shape2r.cpp</in>
+      </df>
+      <df name="vc10">
+        <df name="Debug">
+        </df>
+        <df name="Release">
+        </df>
+      </df>
+      <df name="vc6">
+        <df name="Debug">
+        </df>
+        <df name="out">
+        </df>
+        <df name="Release">
+        </df>
+      </df>
+      <df name="vc9">
+        <df name="Debug">
+        </df>
+        <df name="Release">
+        </df>
+      </df>
+      <df name="winapps">
+        <df name="casm">
+          <in>camera.cpp</in>
+          <in>camera.hpp</in>
+          <in>casm.cpp</in>
+          <in>casm.hpp</in>
+        </df>
+        <df name="iland">
+          <in>asmsearch1.cpp</in>
+          <in>asmsearch1.hpp</in>
+          <in>iland.cpp</in>
+          <in>iland.hpp</in>
+        </df>
+        <df name="marki">
+          <in>marki.cpp</in>
+          <in>marki.hpp</in>
+        </df>
+        <df name="thatch">
+          <in>libthatch.cpp</in>
+          <in>libthatch.hpp</in>
+          <in>thatch.cpp</in>
+          <in>winthatch.cpp</in>
+          <in>winthatch.hpp</in>
+        </df>
+        <df name="wasm">
+          <in>wasm.cpp</in>
+          <in>wasm.hpp</in>
+        </df>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>../stasm3.1/linux/makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>../stasm3.1</Elem>
+  </sourceRootList>
+  <projectmakefile>../stasm3.1/linux/makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>../stasm3.1/linux</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f makefile</buildCommand>
+          <cleanCommand>${MAKE} -f makefile clean</cleanCommand>
+          <executablePath>../stasm3.1/linux/stasmjs</executablePath>
+        </makeTool>
+      </makefileType>
+      <item path="../stasm3.1/data/model-1.asm" ex="true" tool="4" flavor2="0">
+      </item>
+      <item path="../stasm3.1/data/model-2.asm" ex="true" tool="4" flavor2="0">
+      </item>
+      <item path="../stasm3.1/data/mu-68-1d.asm" ex="true" tool="4" flavor2="0">
+      </item>
+      <item path="../stasm3.1/data/mu-76-2d.asm" ex="true" tool="4" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/acconfig.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/config.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_block.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_block_complex.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_cdf.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_chebyshev.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_combination.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_complex_math.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_const.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_const_cgsm.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_const_mksa.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_const_num.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_dft_complex.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_dft_complex_float.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_dht.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_diff.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_fft.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_fft_complex.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_fft_complex_float.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_fft_halfcomplex.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_fft_halfcomplex_float.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_fft_real.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_fft_real_float.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_fit.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_heapsort.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_histogram.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_histogram2d.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_ieee_utils.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_integration.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_interp.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_message.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_min.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_monte.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_monte_miser.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_monte_plain.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_monte_vegas.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_multifit.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_multifit_nlin.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_multimin.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_multiroots.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_ntuple.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_odeiv.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_permute.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_permute_char.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_permute_complex_double.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_permute_complex_float.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_permute_complex_long_double.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_permute_double.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_permute_float.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_permute_int.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_permute_long.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_permute_long_double.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_permute_short.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_permute_uchar.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_permute_uint.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_permute_ulong.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_permute_ushort.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_permute_vector.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_permute_vector_char.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_permute_vector_complex_double.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_permute_vector_complex_float.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_permute_vector_complex_long_double.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_permute_vector_double.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_permute_vector_float.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_permute_vector_int.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_permute_vector_long.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_permute_vector_long_double.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_permute_vector_short.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_permute_vector_uchar.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_permute_vector_uint.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_permute_vector_ulong.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_permute_vector_ushort.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_poly.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_qrng.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_randist.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_rng.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_roots.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sf.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sf_airy.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sf_bessel.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sf_clausen.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sf_coulomb.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sf_coupling.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sf_dawson.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sf_debye.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sf_dilog.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sf_elementary.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sf_ellint.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sf_elljac.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sf_erf.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sf_exp.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sf_expint.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sf_fermi_dirac.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sf_gamma.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sf_gegenbauer.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sf_hyperg.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sf_laguerre.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sf_lambert.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sf_legendre.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sf_log.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sf_pow_int.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sf_psi.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sf_result.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sf_synchrotron.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sf_transport.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sf_trig.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sf_zeta.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_siman.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sort.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sort_char.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sort_double.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sort_float.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sort_int.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sort_long.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sort_long_double.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sort_short.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sort_uchar.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sort_uint.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sort_ulong.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sort_ushort.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sort_vector.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sort_vector_char.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sort_vector_double.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sort_vector_float.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sort_vector_int.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sort_vector_long.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sort_vector_long_double.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sort_vector_short.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sort_vector_uchar.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sort_vector_uint.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sort_vector_ulong.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sort_vector_ushort.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_specfunc.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_spline.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_statistics.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_statistics_char.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_statistics_double.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_statistics_float.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_statistics_int.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_statistics_long.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_statistics_long_double.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_statistics_short.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_statistics_uchar.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_statistics_uint.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_statistics_ulong.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_statistics_ushort.h"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_sum.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_test.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/gsl_version.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/tridiag.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/gsl/gsl/view.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/image/ezfont.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="../stasm3.1/image/imequalize.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/image/imfile.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/image/imgiven.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/image/imutil.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/image/imwrite.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/image/jpegutil.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/image/pngutil.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/image/rgbimutil.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/jpeg/jerror.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/jpeg/jmorecfg.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/jpeg/jpeglib.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/jpeg/wrbmp.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="../stasm3.1/mat/mat.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/mat/matvec.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/mat/mchol.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/mdiff/mdiff.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/minimal/minimal.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/opencv_example/stasm_opencv_example.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/png/pnglib/png.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/png/pnglib/pngconf.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/png/readpng.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="../stasm3.1/png/zlib/zconf.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/png/zlib/zlib.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/regex/regex.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="../stasm3.1/regex/regex_config.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/rowley/find.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/rowley/follow.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/rowley/forward.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/rowley/initnet.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/rowley/list.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/rowley/search.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/rowley/tclHash.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="../stasm3.1/stasm/asmsearch.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/stasm/atface.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/stasm/err.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/stasm/hypot.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="../stasm3.1/stasm/imshape.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/stasm/initasm.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/stasm/landmarks.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/stasm/main.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/stasm/marki.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/stasm/prof.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/stasm/readasm.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/stasm/readconf.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/stasm/release.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/stasm/rowley.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/stasm/rowleyhand.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/stasm/safe_alloc.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/stasm/shapefile.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/stasm/shapemodel.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/stasm/sparsemat.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/stasm/startshape.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/stasm/stasm.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/stasm/stasm_cv.h" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../stasm3.1/stasm/stasm_dll.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/stasm/tab.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/stasm/testdll.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/stasm/util.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/stasm/violajones.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/stasm/vjhand.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/stasm/werr.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/stasm/winfile.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/stasm/wrelease.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/tasm-example/tests/example.asm"
+            ex="true"
+            tool="4"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/tasm-example/tests/linux-example.asm"
+            ex="true"
+            tool="4"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/tasm-example/tests/mingw-example.asm"
+            ex="true"
+            tool="4"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/tasm/detav.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/tasm/eyesynth.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/tasm/mrand.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/tasm/proftrain.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/tasm/tasm.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/tasm/tasmshapes.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/tasm/tcovar.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/tests/test-xm2vts-varied.asm"
+            ex="true"
+            tool="4"
+            flavor2="0">
+      </item>
+      <item path="../stasm3.1/tests/test20-2d.asm" ex="true" tool="4" flavor2="0">
+      </item>
+      <item path="../stasm3.1/tools/check_csv_landmarks.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/tools/fdet.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/tools/shape2r.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/winapps/casm/camera.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/winapps/casm/casm.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/winapps/iland/asmsearch1.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/winapps/iland/iland.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/winapps/marki/marki.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/winapps/thatch/libthatch.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/winapps/thatch/thatch.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/winapps/thatch/winthatch.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../stasm3.1/winapps/wasm/wasm.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <folder path="stasm3.1/face_landmarks">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="stasm3.1/image">
+        <cTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="stasm3.1/jpeg">
+        <cTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="stasm3.1/mat">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="stasm3.1/mdiff">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="stasm3.1/minimal">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="stasm3.1/rowley">
+        <cTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="stasm3.1/tasm">
+        <ccTool>
+          <incDir>
+            <pElem>../stasm3.1/jpeg</pElem>
+            <pElem>../stasm3.1/stasm</pElem>
+            <pElem>../../../stuff/OpenCV-2.2.0/include/opencv</pElem>
+            <pElem>../stasm3.1/gsl/gsl</pElem>
+            <pElem>../stasm3.1/image</pElem>
+            <pElem>../stasm3.1/linux</pElem>
+            <pElem>../stasm3.1/gsl</pElem>
+            <pElem>../stasm3.1/rowley</pElem>
+            <pElem>../stasm3.1/tasm</pElem>
+            <pElem>../stasm3.1/mat</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+    </conf>
+  </confs>
+</configurationDescriptor>
